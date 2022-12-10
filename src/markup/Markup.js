@@ -33,8 +33,8 @@ class Markup extends Component {
             <BrowserRouter basename="/react/demo">
                 <div className="page-wraper">
                     <Switch>
-                        <Route path='/' exact component={Homepage} />
-                        <Route path='/index-2' exact component={Homepage2} />
+                        <Route path='/' exact component={Homepage2} />
+                        {/* <Route path='/index-2' exact component={Homepage2} /> */}
                         <Route path='/about' exact component={About} />
                         <Route path='/hotel' exact component={Hotel} />
                         <Route path='/booking' exact component={BookingDetails} />

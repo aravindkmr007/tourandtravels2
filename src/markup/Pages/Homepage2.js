@@ -6,9 +6,9 @@ import Slick2 from './Slick2';
 import HomeBlog from './../Element/HomeBlog';
 import { Link } from 'react-router-dom';
 import HomeTwoSlider from './../components/HomeTwoSlider';
-import Header2 from './../Layout/Header2';
 import Footer from './../Layout/Footer';
 import Tab2 from './../Pages/Tab2';
+import Header from '../Layout/Header';
 
 var bg1 = require('./../../images/background/bg1.jpg');
 
@@ -18,7 +18,7 @@ function Homepage2(){
     return (
         <div>
 
-            <Header2 />				
+            <Header />				
             <HomeTwoSlider />
             <div className="content-block" id="page_content">
                 <Tab2 />
