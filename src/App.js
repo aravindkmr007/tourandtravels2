@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+// import SimpleReactLightbox from 'simple-react-lightbox'
+// import './css/plugins.css';
+import './css/style.css';
+import "./css/template.css";
+import './css/skin/skin-1.css';
+// import "./css/main.css"
+// import './plugins/slick/slick.min.css';
+// import './plugins/slick/slick-theme.min.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
+
+import Markup from './markup/Markup';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        {/* <SimpleReactLightbox> */}
+            <Markup />
+        {/* </SimpleReactLightbox>   */}
     </div>
   );
 }
